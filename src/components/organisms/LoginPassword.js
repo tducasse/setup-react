@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FormInput from "../molecules/FormInput";
+import FormInput from "components/molecules/FormInput";
 
 const LoginPassword = () => {
   const [password, setPassword] = useState("");

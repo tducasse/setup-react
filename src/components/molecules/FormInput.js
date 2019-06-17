@@ -1,6 +1,6 @@
 import React from "react";
-import Label from "../atoms/Label";
-import Input from "../atoms/Input";
+import Label from "components/atoms/Label";
+import Input from "components/atoms/Input";
 
 const FormInput = props => {
   const { name, value, onChange } = props;
